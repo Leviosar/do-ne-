@@ -1,0 +1,34 @@
+main {
+    background: #299691;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main > section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+main > section > a > button{
+    width: 80vw;
+    height: 13vw;
+    background: #EAF2E3;
+    border: none;
+    color: rgb(33, 34, 33);
+    font-size: 1.35em;
+    border-radius: 50vw;
+}
+
+main > section > img{
+    width: 80%;
+    height: auto;
+}

@@ -1,0 +1,7 @@
+main > section > form{
+    height: 120vw;
+}
+
+main > section > form > button:focus{
+    outline: none;
+}
